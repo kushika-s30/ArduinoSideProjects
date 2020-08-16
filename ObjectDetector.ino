@@ -6,7 +6,6 @@
 // Tested on 24 July 2020
 // ---------------------------------------------------------------- //
 
-
 int redLED=11; // pin D11 of Arduino connected to a red LED 
 int blueLED=12; // pin D12 of Arduino connected to a blue LED 
 int greenLED=13; // pin D13 of Arduino connected to a green LED 
@@ -18,7 +17,9 @@ int objDet=0; //initialize variables
 long duration, distance; // define variables
 
 void setup() { 
-  pinMode(LED,OUTPUT); // Set the LED pin as an OUTPUT
+  pinMode(redLED,OUTPUT); // Set the red LED pin as an OUTPUT
+  pinMode(blueLED,OUTPUT); // Set the blue LED pin as an OUTPUT
+  pinMode(greenLED,OUTPUT); // Set the green LED pin as an OUTPUT
   pinMode(trigPin,OUTPUT);// Sets the trigPin as an OUTPUT
   pinMode(echoPin,INPUT); // Sets the echoPin as an INPUT
 }
