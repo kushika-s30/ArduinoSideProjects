@@ -3,7 +3,7 @@
 // Written by Kushika Sivaprakasam
 // Using Arduino IDE 1.8.42.0
 // Using HC-SR04 Module
-// Tested on 24 August 2020
+// Tested on 24 July 2020
 // ---------------------------------------------------------------- //
 
 
