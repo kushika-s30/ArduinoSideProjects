@@ -1,7 +1,7 @@
 # ArduinoSideProjects
 Simple projects developed using the Arduino UNO board.
 
-1. Object Detector using Ultrasoninc Sensor HC-SR04 
+## 1. Object Detector using Ultrasoninc Sensor HC-SR04 
 
 This sketch uses Ultrasoninc Sensor HC-SR04 to find the distance of a given object and depending on the distance range, the LED glows. 
 
