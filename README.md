@@ -15,3 +15,7 @@ Distance Range:
 
 This sketch uses 1960 bytes (6%) of program storage space. Maximum is 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 
+## 2. LED Dice 
+
+This sketch makes use of 6 LEDs which are connected parallelly to the 6 digital pins of the Arduino UNO. Whenever the PUSH button, which is connected to another pin of the board, is pressed, a random number of LEDs between (1-6) will glow, serving the purpose of a dice. 
+
