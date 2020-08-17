@@ -17,5 +17,12 @@ This sketch uses 1960 bytes (6%) of program storage space. Maximum is 32256 byte
 
 ## 2. LED Dice 
 
-This sketch makes use of 6 LEDs which are connected parallelly to 6 digital pins of the Arduino UNO. Whenever the PUSH button, which is connected to an other pin of the board, is pressed, a random number of LEDs between (1-6) will glow, serving the purpose of a dice. 
+This sketch makes use of 6 LEDs which are connected parallelly to 6 digital pins of the Arduino UNO.
+
+Whenever the PUSH button, which is connected to an other pin of the board, is pressed, a random number of LEDs between (1-6) will glow, serving the purpose of a dice. 
+
+
+Sketch uses 1724 bytes (5%) of program storage space. Maximum is 32256 bytes.
+Global variables use 15 bytes (0%) of dynamic memory, leaving 2033 bytes for local variables. Maximum is 2048 bytes.
+
 
