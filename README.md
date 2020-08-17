@@ -1,5 +1,5 @@
 # ArduinoSideProjects
-Simple projects developed using the Arduino UNO board.
+Simple, beginner-level projects developed using the Arduino UNO board. 
 
 ## 1. Object Detector using Ultrasoninc Sensor HC-SR04 
 
