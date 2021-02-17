@@ -1,6 +1,6 @@
  // Includes the Servo library
 #include <Servo.h>
-// Defines Tirg and Echo pins of the Ultrasonic Sensor
+// Defines Trig and Echo pins of the Ultrasonic Sensor
 const int trigPin = 10;
 const int echoPin = 11;
 // Variables for the duration and the distance
@@ -36,16 +36,16 @@ void loop() {
   Serial.print(".");
   }
 }
+
 // Function for calculating the distance measured by the Ultrasonic sensor
 int calculateDistance(){ 
   
-  digitalWrite(trigPin, LOW); 
-  delayMicroseconds(2);
-  // Sets the trigPin on HIGH state for 10 micro seconds
+  digitalWrite(trigPin, LOW); // To clear the signals of trigPin 
+  delayMicroseconds(2); 
   digitalWrite(trigPin, HIGH); 
-  delayMicroseconds(10);
+  delayMicroseconds(10); // Sets the trigPin on HIGH state for 10 micro seconds
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH); // Reads the echoPin, returns the sound wave travel time in microseconds
-  distance= duration*0.034/2;
+  distance= (duration*0.034)/2;
   return distance;
 } 
