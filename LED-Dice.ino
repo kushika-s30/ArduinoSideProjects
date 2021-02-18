@@ -1,3 +1,12 @@
+// ---------------------------------------------------------------- //
+// LED Dice
+// Written by Kushika Sivaprakasam
+// Using Arduino IDE 1.8.42.0
+// Using HC-SR04 Module
+// Tested on 12 August 2020
+// ---------------------------------------------------------------- //
+
+
 int dice;                           //Declare the variable that will take a random number between 1 to 6
 int buttonState=0;                  //Define a buttonState variable (should be set to HIGH when a switch is pressed)
 
