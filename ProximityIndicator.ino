@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------- //
-// Arduino Object Detector using Ultrasoninc Sensor HC-SR04
+// Proximity Indicator using Ultrasoninc Sensor HC-SR04
 // Written by Kushika Sivaprakasam
 // Using Arduino IDE 1.8.42.0
 // Using HC-SR04 Module
