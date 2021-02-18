@@ -25,4 +25,10 @@ Whenever the PUSH button is pressed, a random number of LEDs between (1-6) will 
 This sketch uses 1724 bytes (5%) of program storage space. Maximum is 32256 bytes.
 Global variables use 15 bytes (0%) of dynamic memory, leaving 2033 bytes for local variables. Maximum is 2048 bytes.
 
+## 3. Angular Sonar
+
+This sketch works similar to proximity indicator however, it is given an angular motion using a Servo motor. The Ultrasonic sensor is attached to the Servo motor which enables the ultrasonic sensor to have an angular movement(15-165 degrees). 
+
+The Red LED glows whenever an object is sensed at a distance closer than 20 cm and the sonar freezes its movement until the object is placed farther than 20 cm. 
+
 
